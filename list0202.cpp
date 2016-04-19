@@ -8,4 +8,5 @@ int main(void) {
 	
 	printf("最后一位是%d。 \n", last);
 	
+	return (0);
 }
