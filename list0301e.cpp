@@ -9,9 +9,9 @@ int main (void) {
 	scanf("%d", &b);
 	
 	if (a % b)
-		puts("B是A的约数");	
+		puts("B不是A的约数");	
 	else
-		puts("B不是A的约数");
+		puts("B是A的约数");
 		
 	return (0); 
 }

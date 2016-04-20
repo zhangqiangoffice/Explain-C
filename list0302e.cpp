@@ -8,10 +8,10 @@ int main (void) {
 	printf("整数B：");
 	scanf("%d", &b);
 	
-	if (a % b)
-		puts("B是A的约数");	
+	if (a == b)
+		printf("A与B相等：%d\n", a == b );
 	else
-		puts("B不是A的约数");
-		
-	return (0); 
+ 		printf("A与B不等：%d\n", a == b );
+ 		
+	return (0);
 }
